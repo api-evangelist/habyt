@@ -1,7 +1,26 @@
 aid: habyt
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/habyt.png
 name: Habyt
-description: 'Habyt is a company surfaced as a portfolio company of hv-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Habyt is a flexible-living and co-living accommodation provider offering furnished
+  studios, apartments, and private rooms for stays ranging from a single night to several
+  months. Positioned as "a new category of living for people in motion," the company blends
+  hotel-style service and amenities with residential flexibility, targeting mobile professionals,
+  relocators, and long-term travelers. Habyt operates properties across Europe (Berlin, Madrid,
+  Vienna, with Lisbon and Milan announced) and Asia (multiple locations in Singapore), and was
+  added to the API Evangelist network as a portfolio company of HV Capital. Habyt is a consumer
+  real-estate and hospitality operator rather than an API-first technology provider; as of this
+  enrichment pass no public developer API, SDK, or documentation surface was found.'
 url: https://raw.githubusercontent.com/api-evangelist/habyt/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,13 +30,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Real Estate
+- Housing
+- Co-Living
+- Flexible Living
+- Hospitality
+- Property
 apis: []
+common:
+- type: DomainSecurity
+  url: security/habyt-domain-security.yml
+- type: Website
+  url: https://www.habyt.com
+- type: About
+  url: https://www.habyt.com/flex/about-habyt
+- type: Blog
+  url: https://flex.habyt.com/flex/blog
+- type: TermsOfService
+  url: https://www.habyt.com/flex/terms-of-service
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
