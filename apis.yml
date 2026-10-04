@@ -45,7 +45,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Consumer
-- Real-Estate
+- Real Estate
 - Housing
 - Co-Living
 - Flexible Living
@@ -60,6 +60,7 @@ tags_raw:
 - Flexible Living
 - Hospitality
 - Property
+- Real-Estate
 apis: []
 common:
 - type: DomainSecurity
